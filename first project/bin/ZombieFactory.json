@@ -1,0 +1,108 @@
+{
+    "contractName": "ZombieFactory",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/UE Manila/Desktop/MARKET/Solidity/first project/contract.sol\":\"ZombieFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/UE Manila/Desktop/MARKET/Solidity/first project/contract.sol\":{\"keccak256\":\"0x08781aab33ee61519c79390eeaea188a301d67fa5389efb9506243be657bedfa\",\"urls\":[\"bzz-raw://115886b81dd1fbe1e427dd0714d0c51617bc6586039381ad3cb328b30db4b1a9\",\"dweb:/ipfs/QmcRDG5MgmwTzi6ENAGnX4DqoZ5zz6Xvhtyp3hSERFjBeK\"]}},\"version\":1}",
+    "bytecode": "60806040526010600055348015601457600080fd5b50603f8060226000396000f3fe6080604052600080fdfea264697066735822122078f291b43f25dbee57d24197b8a2644ddbbdedf592f094e73eaaa35cab36512f64736f6c63430008070033",
+    "deployedBytecode": "6080604052600080fdfea264697066735822122078f291b43f25dbee57d24197b8a2644ddbbdedf592f094e73eaaa35cab36512f64736f6c63430008070033",
+    "sourceMap": "28:53:0:-:0;;;75:2;58:19;;28:53;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "28:53:0:-:0;;;;;",
+    "sourcePath": "c:/Users/UE Manila/Desktop/MARKET/Solidity/first project/contract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/UE Manila/Desktop/MARKET/Solidity/first project/contract.sol",
+        "exportedSymbols": {
+            "ZombieFactory": [
+                5
+            ]
+        },
+        "id": 6,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.8",
+                    ".7"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 5,
+                "linearizedBaseContracts": [
+                    5
+                ],
+                "name": "ZombieFactory",
+                "nameLocation": "37:13:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "dnaDigits",
+                        "nameLocation": "63:9:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 5,
+                        "src": "58:19:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "58:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "3136",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "75:2:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_rational_16_by_1",
+                                "typeString": "int_const 16"
+                            },
+                            "value": "16"
+                        },
+                        "visibility": "internal"
+                    }
+                ],
+                "scope": 6,
+                "src": "28:53:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:83:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "22172",
+            "totalCost": "34772"
+        }
+    }
+}
